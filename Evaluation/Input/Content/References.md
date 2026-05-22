@@ -11,11 +11,11 @@
 11. Nichols AI, Chen Y, Behrle JA, Frick G, Paul J. Effects of desvenlafaxine on the pharmacokinetics of desipramine in healthy adults. Int Clin Psychopharmacol. 2013;28:99-105. doi:10.1097/YIC.0b013e32835c1f49.
 12. Patroneva A, Connolly SM, Fatato P, Pedersen R, Jiang Q, Paul J, Guico-Pabia C, Isler JA, Burczynski ME, Nichols AI. Effect of desvenlafaxine and duloxetine on desipramine pharmacokinetics. Drug Metab Dispos. 2008;36:2484-2491. doi:10.1124/dmd.108.021527.
 13. Skinner MH, Kuan HY, Pan A, Sathirakul K, Knadler MP, Gonzales CR, Yeo KP, Reddy S, Lim M, Ayan-Oshodi M, Wise SD. Duloxetine is both an inhibitor and a substrate of CYP2D6. Clin Pharmacol Ther. 2003;73:170-177. doi:10.1067/mcp.2003.28.
-14. PubChem. PubChem 2019 update: improved access to chemical data. Nucleic Acids Res. 2019;47:D1102-D1109.
-15. ChemAxon. Chemicalize. 2023. https://chemicalize.com.
+14. Kim S, Chen J, Cheng T, Gindulyte A, He J, He S, Li Q, Shoemaker BA, Thiessen PA, Yu B, Zaslavsky L, Zhang J, Bolton EE. PubChem 2019 update: improved access to chemical data. Nucleic Acids Res. 2019;47:D1102-D1109. doi:10.1093/nar/gky1033.
+15. Swain M. chemicalize.org. J Chem Inf Model. 2012;52:613-615. doi:10.1021/ci300046g.
 16. Wishart DS, Knox C, Guo AC, et al. DrugBank: a comprehensive resource for in silico drug discovery and exploration. Nucleic Acids Res. 2006;34:D668-D672. doi:10.1093/nar/gkj067.
 17. Watanabe R, Esaki T, Kawashima H, et al. Predicting Fraction Unbound in Human Plasma from Chemical Structure. Mol Pharm. 2018;15:5302-5311. doi:10.1021/acs.molpharmaceut.8b00785.
-18. Ball SE, Ahern D, Scatina J, Kao J. Venlafaxine: in vitro inhibition of CYP2D6-dependent imipramine and desipramine metabolism. Br J Clin Pharmacol. 1997;43:619-626.
+18. Ball SE, Ahern D, Scatina J, Kao J. Venlafaxine: in vitro inhibition of CYP2D6-dependent imipramine and desipramine metabolism. Br J Clin Pharmacol. 1997;43:619-626. doi:10.1046/j.1365-2125.1997.00591.x.
 19. Austin RP, Barton P, Cockroft SL, Wenlock MC, Riley RJ. Influence of nonspecific microsomal binding on apparent intrinsic clearance. Drug Metab Dispos. 2002;30:1497-1503. doi:10.1124/dmd.30.12.1497.
 
 20. Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model. CPT Pharmacometrics Syst Pharmacol. 2016;5:516-531.
