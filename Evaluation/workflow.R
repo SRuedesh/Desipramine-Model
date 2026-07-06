@@ -1,7 +1,11 @@
-createQualificationReport <- function(qualificationRunnerFolder,
-                                      pkSimPortableFolder = NULL,
-                                      createWordReport = FALSE,
-                                      maxSimulationsPerCore = NULL) {
+createQualificationReport <- function(
+  qualificationRunnerFolder,
+  pkSimPortableFolder = NULL,
+  createWordReport = FALSE,
+  maxSimulationsPerCore = NULL,
+  versionInfo = NULL,
+  wordConversionTemplate = NULL
+) {
   if (!requireNamespace("ospsuite.reportingengine", quietly = TRUE)) {
     stop("Package ospsuite.reportingengine is required.", call. = FALSE)
   }
@@ -10,33 +14,64 @@ createQualificationReport <- function(qualificationRunnerFolder,
   findRepoRoot <- function(path) {
     current <- normalizePath(path, winslash = "/", mustWork = TRUE)
     repeat {
-      if (file.exists(file.path(current, "Desipramine-Model.json")) &&
-          dir.exists(file.path(current, "Evaluation"))) {
+      if (
+        file.exists(file.path(current, "Desipramine-Model.json")) &&
+          dir.exists(file.path(current, "Evaluation"))
+      ) {
         return(current)
       }
       parent <- dirname(current)
       if (identical(parent, current)) {
-        stop("Could not find repository root containing Desipramine-Model.json and Evaluation", call. = FALSE)
+        stop(
+          "Could not find repository root containing Desipramine-Model.json and Evaluation",
+          call. = FALSE
+        )
       }
       current <- parent
     }
   }
 
-  thisFile <- if (sys.nframe() > 0) tryCatch(normalizePath(sys.frame(1)$ofile, winslash = "/", mustWork = TRUE), error = function(e) NA_character_) else NA_character_
+  thisFile <- if (sys.nframe() > 0) {
+    tryCatch(
+      normalizePath(sys.frame(1)$ofile, winslash = "/", mustWork = TRUE),
+      error = function(e) NA_character_
+    )
+  } else {
+    NA_character_
+  }
   repoRoot <- findRepoRoot(if (!is.na(thisFile)) dirname(thisFile) else getwd())
   workingDirectory <- file.path(repoRoot, "Evaluation")
-  qualificationPlanFile <- file.path(workingDirectory, "Input", "evaluation_plan.json")
+  qualificationPlanFile <- file.path(
+    workingDirectory,
+    "Input",
+    "evaluation_plan.json"
+  )
   snapshotFile <- file.path(repoRoot, "Desipramine-Model.json")
 
-  if (!file.exists(qualificationPlanFile)) stop("Missing evaluation plan: ", qualificationPlanFile, call. = FALSE)
-  if (!file.exists(snapshotFile)) stop("Missing model snapshot: ", snapshotFile, call. = FALSE)
-  if (!dir.exists(qualificationRunnerFolder)) stop("Missing QualificationRunner folder: ", qualificationRunnerFolder, call. = FALSE)
-  if (!is.null(pkSimPortableFolder) && !dir.exists(pkSimPortableFolder)) stop("Missing PK-Sim folder: ", pkSimPortableFolder, call. = FALSE)
+  if (!file.exists(qualificationPlanFile)) {
+    stop("Missing evaluation plan: ", qualificationPlanFile, call. = FALSE)
+  }
+  if (!file.exists(snapshotFile)) {
+    stop("Missing model snapshot: ", snapshotFile, call. = FALSE)
+  }
+  if (!dir.exists(qualificationRunnerFolder)) {
+    stop(
+      "Missing QualificationRunner folder: ",
+      qualificationRunnerFolder,
+      call. = FALSE
+    )
+  }
+  if (!is.null(pkSimPortableFolder) && !dir.exists(pkSimPortableFolder)) {
+    stop("Missing PK-Sim folder: ", pkSimPortableFolder, call. = FALSE)
+  }
 
   reInputFolder <- file.path(workingDirectory, "re_input")
   reOutputFolder <- file.path(workingDirectory, "re_output")
   configurationPlanName <- "report-configuration-plan"
-  configurationPlanFile <- file.path(reInputFolder, paste0(configurationPlanName, ".json"))
+  configurationPlanFile <- file.path(
+    reInputFolder,
+    paste0(configurationPlanName, ".json")
+  )
   logFile <- file.path(workingDirectory, "runner.log")
 
   startQualificationRunner(
@@ -50,7 +85,18 @@ createQualificationReport <- function(qualificationRunnerFolder,
     logLevel = "Debug"
   )
 
-  if (!file.exists(configurationPlanFile)) stop("QualificationRunner did not create: ", configurationPlanFile, call. = FALSE)
+  if (!file.exists(configurationPlanFile)) {
+    stop(
+      "QualificationRunner did not create: ",
+      configurationPlanFile,
+      call. = FALSE
+    )
+  }
+
+  titlePageFile <- file.path(reInputFolder, "Intro", "titlepage.md")
+  if (!is.null(versionInfo) && file.exists(titlePageFile)) {
+    adjustTitlePage(titlePageFile, qualificationVersionInfo = versionInfo)
+  }
 
   workflow <- loadQualificationWorkflow(
     workflowFolder = reOutputFolder,
@@ -58,7 +104,10 @@ createQualificationReport <- function(qualificationRunnerFolder,
   )
   workflow$reportFilePath <- file.path(workingDirectory, "report", "report.md")
   workflow$createWordReport <- createWordReport
-  if (!is.null(maxSimulationsPerCore)) workflow$simulate$settings$maxSimulationsPerCore <- maxSimulationsPerCore
+  workflow$wordConversionTemplate <- wordConversionTemplate
+  if (!is.null(maxSimulationsPerCore)) {
+    workflow$simulate$settings$maxSimulationsPerCore <- maxSimulationsPerCore
+  }
   workflow$runWorkflow()
   invisible(workflow)
 }
