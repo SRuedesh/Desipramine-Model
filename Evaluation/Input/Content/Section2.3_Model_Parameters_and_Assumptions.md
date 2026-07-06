@@ -10,7 +10,7 @@ No phenotype-specific absorption parameter was introduced. Differences between C
 
 ### 2.3.2 Distribution
 
-Desipramine plasma protein binding was represented by a fraction unbound of 14% as summarized in [Section 2.2.1](#221-in-vitro-and-physicochemical-data). Lipophilicity was optimized and is an important parameter for the parent volume of distribution.
+Desipramine plasma protein binding was represented by a fraction unbound of 14% as summarized in [Section 2.2.1](Section2.2_Data.md). Lipophilicity was optimized and is an important parameter for the parent volume of distribution.
 
 Partition coefficients were calculated with the Rodgers and Rowland method. Because the model includes both parent and metabolite concentration-time profiles, distribution assumptions affect the interpretation of desipramine and 2-hydroxydesipramine profiles separately.
 
