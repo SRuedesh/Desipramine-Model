@@ -4796,7 +4796,7 @@
       "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
       "Model": "4Comp",
       "ObservedData": [
-        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)"
+        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -10474,7 +10474,7 @@
     {
       "Name": "Desipramine",
       "Classifiables": [
-        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
+        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine",
         "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM), desipramine",
         "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), desipramine",
         "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine",
