@@ -4966,9 +4966,9 @@
               }
             },
             {
-              "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)-Desipramine-Peripheral Venous Blood-Plasma-[ng/mL]",
-              "X": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)|[h]",
-              "Y": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
+              "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine-Desipramine-Peripheral Venous Blood-Plasma-[ng/mL]",
+              "X": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine|[h]",
+              "Y": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 3,
@@ -5649,7 +5649,7 @@
   ],
   "ObservedData": [
     {
-      "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
+      "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine",
       "ExtendedProperties": [
         {
           "Name": "Molecule",
@@ -5679,7 +5679,7 @@
             {
               "Name": "[ng/mL].1",
               "QuantityInfo": {
-                "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL].1"
+                "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL].1"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -5700,7 +5700,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]"
+            "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5723,7 +5723,7 @@
       "BaseGrid": {
         "Name": "[h]",
         "QuantityInfo": {
-          "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)|[h]",
+          "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine|[h]",
           "Type": "Time"
         },
         "DataInfo": {
