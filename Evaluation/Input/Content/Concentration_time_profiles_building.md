@@ -1,0 +1,1 @@
+The following model-building profiles show the clinical data used to establish parent and metabolite disposition, oral absorption, and CYP2D6-mediated 2-hydroxylation. Intravenous and oral data are shown separately where available because they inform different model components.

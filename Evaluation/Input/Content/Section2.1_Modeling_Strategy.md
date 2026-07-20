@@ -1,8 +1,8 @@
-The general concept of building a PBPK model has previously been described by Kuepfer et al. ([Kuepfer 2016](References.md#5-references)). Relevant information on anthropometric and physiological parameters in adults was gathered from the literature and incorporated into PK-Sim as default values for adult simulations ([Willmann 2007](References.md#5-references)).
+The general concept of building a PBPK model has previously been described by Kuepfer et al. ([Kuepfer 2016](References.md)). Relevant information on anthropometric and physiological parameters in adults was gathered from the literature and incorporated into PK-Sim as default values for adult simulations ([Willmann 2007](References.md)).
 
 The applied activity and variability of plasma proteins and active processes integrated into PK-Sim are described in the publicly available PK-Sim Ontogeny Database or otherwise referenced for the specific process.
 
-The desipramine model was developed as a parent-metabolite PBPK model with desipramine and 2-hydroxydesipramine. It was included in the comprehensive CYP2D6 drug-drug-gene interaction network by [Rüdesheim 2025](References.md#5-references). The model was built using intravenous and oral desipramine data to inform distribution, absorption, CYP2D6-mediated metabolism, and residual elimination.
+The desipramine model was developed as a parent-metabolite PBPK model with desipramine and 2-hydroxydesipramine. It was included in the comprehensive CYP2D6 drug-drug-gene interaction network by [Rüdesheim 2025](References.md). The model was built using intravenous and oral desipramine data to inform distribution, absorption, CYP2D6-mediated metabolism, and residual elimination.
 
 Clinical studies used for model building covered intravenous and oral desipramine administration in CYP2D6 poor-, extensive-, and fast-metabolizer groups. Verification simulations included independent oral studies, activity-score groups, and CYP2D6 inhibitor interaction scenarios. The model therefore separates parent desipramine performance from 2-hydroxydesipramine performance where metabolite data are available.
 
