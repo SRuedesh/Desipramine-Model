@@ -33,17 +33,3 @@ This structure assigns CYP2D6 phenotype and activity-score effects to catalytic 
 The model includes residual hepatic clearance for desipramine and unspecific hepatic clearance for 2-hydroxydesipramine. Both parent and metabolite include passive renal filtration with a `GFR fraction` of 1.
 
 Residual hepatic clearance accounts for desipramine elimination not explicitly assigned to CYP2D6 2-hydroxylation. The metabolite unspecific hepatic clearance represents downstream elimination of 2-hydroxydesipramine. Renal filtration is implemented as a passive process using adult renal physiology and the fraction unbound of the respective compound.
-
-### 2.3.4 Automated Parameter Identification
-
-The following parameters were optimized by fitting the model to the data:
-
-| Model Parameter |
-| --- |
-| `Lipophilicity` |
-| `Specific intestinal permeability` |
-| CYP2D6 k<sub>cat</sub> values |
-| desipramine residual hepatic clearance |
-| 2-hydroxydesipramine unspecific CL<sub>hep</sub> |
-
-The optimized parameters were selected to describe distribution, oral absorption, CYP2D6-mediated formation, and residual clearance. Parameters with direct physicochemical or plasma-binding sources were kept fixed. The separation of optimized absorption and clearance terms is necessary because both oral and intravenous studies contribute to the evaluation.
