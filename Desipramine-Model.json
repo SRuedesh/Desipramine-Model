@@ -1676,7 +1676,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Square"
               }
             },
             {
@@ -1907,7 +1907,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Square"
               }
             },
             {
@@ -2144,7 +2144,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Square"
               }
             },
             {
@@ -2381,7 +2381,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Square"
               }
             },
             {
@@ -2824,7 +2824,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Square"
               }
             },
             {
@@ -3271,7 +3271,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Square"
               }
             },
             {
@@ -4766,7 +4766,7 @@
                 "Color": "#0000FF",
                 "LegendIndex": 4,
                 "LineStyle": "None",
-                "Symbol": "Circle"
+                "Symbol": "Square"
               }
             }
           ],
