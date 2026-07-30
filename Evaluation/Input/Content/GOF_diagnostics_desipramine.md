@@ -1,3 +1,3 @@
-Below you find the goodness-of-fit visual diagnostic plots for desipramine plasma concentration data used in the model evaluation.
+The goodness-of-fit diagnostic plots show desipramine plasma concentration data used in the model evaluation.
 
-The first plot shows observed versus simulated plasma concentration, the second weighted residuals versus time.
+The first plot shows observed versus simulated plasma concentrations. The second plot shows weighted residuals versus time.

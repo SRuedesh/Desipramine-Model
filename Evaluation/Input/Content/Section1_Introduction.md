@@ -1,8 +1,8 @@
-Desipramine is a tricyclic antidepressant and a sensitive CYP2D6 substrate. It is used as a probe substrate in clinical drug-drug interaction studies and is suitable for evaluating CYP2D6 phenotype- and activity-dependent changes in exposure.
+Desipramine is a tricyclic antidepressant and a sensitive CYP2D6 substrate. Its pharmacokinetics are suitable for evaluating CYP2D6 phenotype- and activity-dependent changes in exposure.
 
-This desipramine model is intended to describe plasma concentration-time profiles of desipramine and 2-hydroxydesipramine after intravenous and oral administration. It supports CYP2D6 drug-gene and drug-drug-gene interaction simulations in the CYP2D6 network described by [Rüdesheim 2025](#5-references).
+This desipramine model is intended to describe plasma concentration-time profiles of desipramine and 2-hydroxydesipramine after intravenous and oral administration across CYP2D6 phenotype and activity-score groups.
 
-The model was developed using physicochemical, *in vitro*, and clinical pharmacokinetic information for desipramine and 2-hydroxydesipramine. Clinical data included intravenous and oral administration, extensive-, poor-, normal-, and higher-activity CYP2D6 groups, and interacting-drug studies using desipramine as a CYP2D6 victim.
+The model was developed using physicochemical, *in vitro*, and clinical pharmacokinetic information for desipramine and 2-hydroxydesipramine. Clinical data included intravenous and oral administration and poor-, extensive-, normal-, and higher-activity CYP2D6 groups. This compound report includes only desipramine-only or control-arm pharmacokinetic data.
 
 The presented model includes the following features:
 

@@ -118,9 +118,9 @@
         ],
         "Species": "Human",
         "Population": "European_ICRP_2002",
-        "Gender": "MALE",
+        "Gender": "FEMALE",
         "Age": {
-          "Value": 35.6,
+          "Value": 26.8,
           "Unit": "year(s)"
         }
       },
@@ -144,9 +144,9 @@
         ],
         "Species": "Human",
         "Population": "European_ICRP_2002",
-        "Gender": "FEMALE",
+        "Gender": "MALE",
         "Age": {
-          "Value": 26.38,
+          "Value": 36.7,
           "Unit": "year(s)"
         }
       },
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "Name": "Bergstrom (1992), n=6",
+      "Name": "Bergstrom (1992), n=6 (EM)",
       "Seed": 76940781,
       "OriginData": {
         "CalculationMethods": [
@@ -482,7 +482,7 @@
         "Population": "European_ICRP_2002",
         "Gender": "MALE",
         "Age": {
-          "Value": 24.17,
+          "Value": 28.3,
           "Unit": "year(s)"
         }
       },
@@ -508,7 +508,7 @@
         "Population": "European_ICRP_2002",
         "Gender": "MALE",
         "Age": {
-          "Value": 28.33,
+          "Value": 24.1,
           "Unit": "year(s)"
         }
       },
@@ -534,7 +534,7 @@
         "Population": "European_ICRP_2002",
         "Gender": "MALE",
         "Age": {
-          "Value": 29.17,
+          "Value": 28.8,
           "Unit": "year(s)"
         }
       },
@@ -755,9 +755,9 @@
               "Name": "GFR fraction",
               "Value": 1.0,
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Assumption"
               }
             }
           ]
@@ -1460,7 +1460,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Aarnoutse 2005: desipramine hydrochloride, po, 50 mg, n=13 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -1691,7 +1691,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Bergmann 2001: desipramine hydrochloride, po, 100 mg, n=6 (AS=2)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -1922,7 +1922,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Bergmann 2001: desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -2159,7 +2159,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Boni 2009: desipramine hydrochloride, po, 50 mg, n=26 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -2396,7 +2396,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Brøsen 1986: desipramine hydrochloride, po, 100 mg, n=6 (fast EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -2602,7 +2602,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Brøsen 1986: desipramine hydrochloride, po, 100 mg, n=6 (PM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -2839,7 +2839,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Brøsen 1986: desipramine hydrochloride, po, 100 mg, n=6 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3049,7 +3049,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Harris 2007: desipramine hydrochloride, po, 50 mg, n=17 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3286,7 +3286,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Hynes 2015: desipramine hydrochloride, po, 50 mg, n=20 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3496,7 +3496,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Madani 2002: desipramine hydrochloride, po, 50 mg, n=24 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3519,10 +3519,10 @@
       ]
     },
     {
-      "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6",
+      "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)",
       "Model": "4Comp",
       "ObservedData": [
-        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine"
+        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3583,11 +3583,11 @@
       "OutputMappings": [
         {
           "Scaling": "Log",
-          "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine"
+          "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine"
         }
       ],
-      "Individual": "Bergstrom (1992), n=6",
+      "Individual": "Bergstrom (1992), n=6 (EM)",
       "Compounds": [
         {
           "Name": "2-Hydroxydesipramine",
@@ -3686,18 +3686,18 @@
           ],
           "Curves": [
             {
-              "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
               "X": "Time",
-              "Y": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "Y": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2
               }
             },
             {
-              "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine-Desipramine-[ng/mL]",
-              "X": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine|[h]",
-              "Y": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
+              "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine-Desipramine-[ng/mL]",
+              "X": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine|[h]",
+              "Y": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 3,
@@ -3706,7 +3706,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Bergstrom 1992: desipramine hydrochloride, po, 50 mg, n=6",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3724,7 +3724,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Desipramine-Model\nBergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6\n2024-01-19 10:50"
+          "OriginText": "Desipramine-Model\nBergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)\n2024-01-19 10:50"
         }
       ]
     },
@@ -3915,7 +3915,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Brøsen 1988: desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -4114,7 +4114,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Brøsen 1988: desipramine hydrochloride, iv, 50 mg, n=3 (PM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -4323,7 +4323,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Brøsen 1988: desipramine hydrochloride, iv, 50 mg, n=4 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -4533,7 +4533,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Nichols 2013: desipramine hydrochloride, po, 50 mg, n=38 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -4770,7 +4770,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Patroneva 2008: desipramine hydrochloride, po, 50 mg, n=20 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -4977,7 +4977,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Spina 1987: desipramine hydrochloride, po, 25 mg, n=8 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -5193,7 +5193,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Spina 1987: desipramine hydrochloride, po, 25 mg, n=6 (PM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -5403,7 +5403,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Skinner 2003: desipramine hydrochloride, po, 50 mg, n=16 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -5624,7 +5624,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Spina 1995: desipramine hydrochloride, po, 100 mg, n=6 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -6839,7 +6839,7 @@
       }
     },
     {
-      "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine",
+      "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine",
       "ExtendedProperties": [
         {
           "Name": "Molecule",
@@ -6869,7 +6869,7 @@
             {
               "Name": "[ng/mL].1",
               "QuantityInfo": {
-                "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL].1"
+                "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL].1"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -6894,7 +6894,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]"
+            "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -6921,7 +6921,7 @@
       "BaseGrid": {
         "Name": "[h]",
         "QuantityInfo": {
-          "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine|[h]",
+          "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine|[h]",
           "Type": "Time"
         },
         "DataInfo": {
@@ -10485,7 +10485,7 @@
         "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM), desipramine",
         "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM), desipramine",
         "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM), desipramine",
-        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine",
+        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine",
         "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine",
         "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM), desipramine",
         "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM), desipramine",
@@ -10545,7 +10545,7 @@
         "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)",
         "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
         "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)",
-        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6",
+        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)",
         "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)",
         "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
         "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)",

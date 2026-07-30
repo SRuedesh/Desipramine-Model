@@ -1,4 +1,4 @@
-[1] Rüdesheim S, Loer HLH, Feick D, Marok FZ, Fuhr LM, Selzer D, et al. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther. 2025.
+[1] Rüdesheim S, Loer HLH, Feick D, Marok FZ, Fuhr LM, Selzer D, et al. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther. 2025. doi: [10.1002/cpt.3604](https://doi.org/10.1002/cpt.3604).
 
 [2] Brøsen K, Gram LF. First-pass metabolism of imipramine and desipramine: impact of the sparteine oxidation phenotype. Clin Pharmacol Ther. 1988;43:400-406. doi: [10.1038/clpt.1988.50](https://doi.org/10.1038/clpt.1988.50).
 
@@ -36,12 +36,12 @@
 
 [19] Austin RP, Barton P, Cockroft SL, Wenlock MC, Riley RJ. Influence of nonspecific microsomal binding on apparent intrinsic clearance. Drug Metab Dispos. 2002;30:1497-1503. doi: [10.1124/dmd.30.12.1497](https://doi.org/10.1124/dmd.30.12.1497).
 
-[20] Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model. CPT Pharmacometrics Syst Pharmacol. 2016;5:516-531.
+[20] Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model. CPT Pharmacometrics Syst Pharmacol. 2016;5:516-531. doi: [10.1002/psp4.12134](https://doi.org/10.1002/psp4.12134).
 
-[21] Willmann S, Höhn K, Edginton A, Sevestre M, Solodenko J, Weiss W, Lippert J, Schmitt W. Development of a physiology-based whole-body population model for assessing the influence of individual variability on the pharmacokinetics of drugs. J Pharmacokinet Pharmacodyn. 2007;34:401-431.
+[21] Willmann S, Höhn K, Edginton A, Sevestre M, Solodenko J, Weiss W, Lippert J, Schmitt W. Development of a physiology-based whole-body population model for assessing the influence of individual variability on the pharmacokinetics of drugs. J Pharmacokinet Pharmacodyn. 2007;34:401-431. doi: [10.1007/s10928-007-9059-5](https://doi.org/10.1007/s10928-007-9059-5).
 
-[22] ChemAxon. Chemicalize. 2023.
+[22] Brøsen K, Otton SV, Gram LF. Imipramine demethylation and hydroxylation: impact of the sparteine oxidation phenotype. Clin Pharmacol Ther. 1986;40:543-549. doi: [10.1038/clpt.1986.221](https://doi.org/10.1038/clpt.1986.221).
 
-[23] Brøsen K, Otton SV, Gram LF. Imipramine demethylation and hydroxylation: impact of the sparteine oxidation phenotype. Clin Pharmacol Ther. 1986;40:543-549. doi: [10.1038/clpt.1986.221](https://doi.org/10.1038/clpt.1986.221).
+[23] Spina E, Avenoso A, Campo GM, Caputi AP, Perucca E. The effect of carbamazepine on the 2-hydroxylation of desipramine. Psychopharmacology. 1995;117:413-416. doi: [10.1007/BF02246212](https://doi.org/10.1007/BF02246212).
 
-[24] Spina E, Avenoso A, Campo GM, Caputi AP, Perucca E. The effect of carbamazepine on the 2-hydroxylation of desipramine. Psychopharmacology. 1995;117:413-416. doi: [10.1007/BF02246212](https://doi.org/10.1007/BF02246212).
+[24] Moore C, Bourque MS, Halman A, Agúndez JAG, Prows CA, Hikino K, et al. Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6 Genotype and Use of 5-HT<sub>3</sub> Receptor Antagonists: 2026 Update. Clinical Pharmacology & Therapeutics. 2026;120:387-393. doi: [10.1002/cpt.70291](https://doi.org/10.1002/cpt.70291).

@@ -78,16 +78,6 @@
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)",
-        "SectionId": 332
-      },
-      {
-        "Project": "Desipramine",
-        "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)",
-        "SectionId": 332
-      },
-      {
-        "Project": "Desipramine",
         "Simulation": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)",
         "SectionId": 331
       },
@@ -108,26 +98,6 @@
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)",
-        "SectionId": 331
-      },
-      {
-        "Project": "Desipramine",
-        "Simulation": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
-        "SectionId": 332
-      },
-      {
-        "Project": "Desipramine",
-        "Simulation": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)",
-        "SectionId": 331
-      },
-      {
-        "Project": "Desipramine",
-        "Simulation": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6",
-        "SectionId": 332
-      },
-      {
-        "Project": "Desipramine",
         "Simulation": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)",
         "SectionId": 331
       },
@@ -143,13 +113,13 @@
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)",
-        "SectionId": 332
+        "Simulation": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)",
+        "SectionId": 331
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
-        "SectionId": 332
+        "Simulation": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)",
+        "SectionId": 331
       },
       {
         "Project": "Desipramine",
@@ -163,6 +133,36 @@
       },
       {
         "Project": "Desipramine",
+        "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
         "Simulation": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)",
         "SectionId": 332
       },
@@ -173,9 +173,9 @@
       }
     ],
     "GOFMergedPlots": [
-      {
-        "Title": "Observed versus simulated concentration-time data for all modeled compounds",
-        "SectionId": 32,
+{
+        "Title": "Desipramine goodness-of-fit diagnostics",
+        "SectionId": 321,
         "Artifacts": [
           "Plot",
           "GMFE",
@@ -262,9 +262,9 @@
               },
               {
                 "Project": "Desipramine",
-                "Simulation": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6",
+                "Simulation": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)",
                 "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine",
+                "ObservedData": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine",
                 "Color": "#FF0000"
               },
               {
@@ -331,7 +331,22 @@
                 "Color": "#FF0000"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "Title": "2-Hydroxydesipramine goodness-of-fit diagnostics",
+        "SectionId": 322,
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Groups": [
           {
             "Caption": "2-Hydroxydesipramine",
             "Symbol": "Square",
@@ -446,7 +461,19 @@
         {
           "Id": 32,
           "Title": "Diagnostic plots",
-          "Content": "Content/GOF_diagnostics.md"
+          "Content": "Content/GOF_diagnostics.md",
+          "Sections": [
+            {
+              "Id": 321,
+              "Title": "Desipramine goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_desipramine.md"
+            },
+            {
+              "Id": 322,
+              "Title": "2-Hydroxydesipramine goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_2hydroxydesipramine.md"
+            }
+          ]
         },
         {
           "Id": 33,
@@ -455,12 +482,12 @@
           "Sections": [
             {
               "Id": 331,
-              "Title": "Model Building",
+              "Title": "Model building",
               "Content": "Content/Concentration_time_profiles_building.md"
             },
             {
               "Id": 332,
-              "Title": "Model Verification",
+              "Title": "Model verification",
               "Content": "Content/Concentration_time_profiles_verification.md"
             }
           ]

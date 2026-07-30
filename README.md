@@ -6,7 +6,7 @@ This repository contains the desipramine model originally published by Rüdeshei
 The model was developed and evaluated using published clinical plasma pharmacokinetic data after intravenous or oral desipramine administration by Brøsen et al. [[2](#references), [14](#references)], Spina et al. [[3](#references), [15](#references)], Aarnoutse et al. [[4](#references)], Boni et al. [[5](#references)], Harris et al. [[6](#references)], Madani et al. [[7](#references)], Bergstrom et al. [[8](#references)], Bergmann et al. [[9](#references)], Hynes et al. [[10](#references)], Nichols et al. [[11](#references)], Patroneva et al. [[12](#references)] and Skinner et al. [[13](#references)].
 
 Users of the model are expected to cite this study when using the model in scientific work, reports or derivative model development:
-- [S Rüdesheim, H L H Loer, D Feick, F Z Marok, L M Fuhr, D Selzer, D Teutonico, A R P Schneider, J Solodenko, S Frechen, M van der Lee, D J A R Moes, J J Swen, M Schwab, T Lehr. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther, 2025.](https://pubmed.ncbi.nlm.nih.gov/39953671/)
+- [S Rüdesheim, H L H Loer, D Feick, F Z Marok, L M Fuhr, D Selzer, D Teutonico, A R P Schneider, J Solodenko, S Frechen, M van der Lee, D J A R Moes, J J Swen, M Schwab, T Lehr. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther, 2025.](https://doi.org/10.1002/cpt.3604)
 
 This desipramine model is intended to describe CYP2D6-mediated desipramine and 2-hydroxydesipramine pharmacokinetics and to support CYP2D6 drug-drug-gene interaction simulations.
 
@@ -25,7 +25,7 @@ This repository contains:
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation_plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
-**The latest release of the snapshot of the model, the evaluation plan and the static content can be found in the [latest release in this repository](./releases/latest).**
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found in the [latest release in this repository](https://github.com/Open-Systems-Pharmacology/Desipramine-Model/releases/latest).**
 
 **The latest release of the PK-Sim project model file and the respective evaluation report can be found in the [latest OSP PBPK Model Library release](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
 
@@ -39,7 +39,7 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## References
-[1] S Rüdesheim, H L H Loer, D Feick, F Z Marok, L M Fuhr, D Selzer, D Teutonico, A R P Schneider, J Solodenko, S Frechen, M van der Lee, D J A R Moes, J J Swen, M Schwab, T Lehr. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther, 2025.
+[1] S Rüdesheim, H L H Loer, D Feick, F Z Marok, L M Fuhr, D Selzer, D Teutonico, A R P Schneider, J Solodenko, S Frechen, M van der Lee, D J A R Moes, J J Swen, M Schwab, T Lehr. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther, 2025. doi: [10.1002/cpt.3604](https://doi.org/10.1002/cpt.3604).
 
 [2] K Brøsen, L F Gram. First-pass metabolism of imipramine and desipramine: impact of the sparteine oxidation phenotype. Clin Pharmacol Ther, 1988;43:400-406. doi: [10.1038/clpt.1988.50](https://doi.org/10.1038/clpt.1988.50).
 

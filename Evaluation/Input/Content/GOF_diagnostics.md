@@ -1,1 +1,1 @@
-The goodness-of-fit diagnostics combine all modeled compounds in one set of plots. Colors and symbols identify compounds consistently with the concentration-time profiles. Administration route, formulation, and model-building or verification status are not used to split the diagnostics.
+The goodness-of-fit diagnostics are separated by analyte. This keeps desipramine and 2-hydroxydesipramine legends and error measures distinct.
