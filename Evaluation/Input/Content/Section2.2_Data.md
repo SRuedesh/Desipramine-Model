@@ -6,8 +6,8 @@ The table below summarizes the drug-dependent inputs documented for the desipram
 | --- | ---: | ---: | --- | --- |
 | **Desipramine** |  |  |  |  |
 | MW | g/mol | 266.4 | [Kim 2019](#5) | Molecular weight of desipramine free base. |
-| pK<sub>a</sub> | - | 2.84<sup>a</sup> | [Swain 2012](#5) | Acid dissociation constant. |
-| pK<sub>a</sub> | - | 10.02<sup>a</sup> | [Wishart 2006](#5) | Acid dissociation constant. |
+| pK<sub>a</sub>,base | - | 2.84 | [Swain 2012](#5) | pKa of a basic ionization site. |
+| pK<sub>a</sub>,base | - | 10.02 | [Wishart 2006](#5) | pKa of a basic ionization site. |
 | Solubility | mg/L | 214.29 | [Swain 2012](#5) | Aqueous solubility at pH 6.5. |
 | logP | - | 3.52 | Optimized | Octanol-water partition coefficient of the neutral species. |
 | f<sub>u</sub> | % | 14 | [Watanabe 2018](#5) | Fraction unbound in plasma. |
@@ -18,9 +18,9 @@ The table below summarizes the drug-dependent inputs documented for the desipram
 | Oral formulation | - | Solution | Assumed | Formulation used for oral predictions. |
 | **2-Hydroxydesipramine** |  |  |  |  |
 | MW | g/mol | 282.4 | [Kim 2019](#5) | Molecular weight. |
-| pK<sub>a</sub> | - | 4.51<sup>a</sup> | [Swain 2012](#5) | Acid dissociation constant. |
-| pK<sub>a</sub> | - | 9.90<sup>a</sup> | [Swain 2012](#5) | Acid dissociation constant. |
-| pK<sub>a</sub> | - | 10.63<sup>b</sup> | [Swain 2012](#5) | Acid dissociation constant. |
+| pK<sub>a</sub>,base | - | 4.51 | [Swain 2012](#5) | pKa of a basic ionization site. |
+| pK<sub>a</sub>,base | - | 9.90 | [Swain 2012](#5) | pKa of a basic ionization site. |
+| pK<sub>a</sub>,acid | - | 10.63 | [Swain 2012](#5) | pKa of an acidic ionization site. |
 | Solubility | mg/L | 282.39 | [Swain 2012](#5) | Aqueous solubility at pH 6.5. |
 | logP | - | 2.33 | Optimized | Octanol-water partition coefficient of the neutral species. |
 | f<sub>u</sub> | % | 12 | [Watanabe 2018](#5) | Fraction unbound in plasma. |
@@ -28,12 +28,10 @@ The table below summarizes the drug-dependent inputs documented for the desipram
 | P<sub>int</sub> | cm/min | 3.19E-05 | Calculated | Specific transcellular intestinal permeability. |
 | **Shared distribution and elimination parameters** |  |  |  |  |
 | GFR fraction | - | 1.00 | Assumed | Fraction used to scale passive glomerular filtration. |
-| Partition coefficients | - | Diverse | Calculated | Tissue-to-plasma partition coefficients calculated with the Rodgers and Rowland method. |
+| Partition coefficients | - | Rodgers and Rowland | Calculated | Tissue-to-plasma partition coefficients calculated with the Rodgers and Rowland method. |
 | Cellular permeabilities | cm/min | 0.27 / 0.01 | Calculated | Cellular permeabilities for desipramine and 2-hydroxydesipramine calculated with the PK-Sim Standard method. |
 
 **Table 1:**<a name="table-1"></a> Drug-dependent physicochemical, distribution, metabolism, elimination, and formulation parameters used in the final desipramine model.
-
-<sup>a</sup> Basic. <sup>b</sup> Acidic.
 
 The CYP2D6 characterization-specific catalytic rate constants used in the model are listed below.
 
