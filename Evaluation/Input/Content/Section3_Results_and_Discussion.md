@@ -12,6 +12,6 @@ The next sections show:
 2. the overall goodness of fit: [Section 3.2](#32).
 3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33).
 
-The concentration-time profiles should be interpreted by dose route, analyte, and CYP2D6 activity group. Intravenous data mainly test systemic distribution and clearance. Oral data additionally test absorption and first-pass metabolism. Poor-metabolizer profiles are expected to show reduced CYP2D6-mediated 2-hydroxylation, while normal- and higher-activity groups test the activity-score-dependent k<sub>cat</sub> values.
+The concentration-time profiles should be interpreted by dose route, analyte, and CYP2D6 activity group. Intravenous data mainly test systemic distribution and clearance. Oral data additionally test absorption and first-pass metabolism. Poor-metabolizer profiles are simulated without CYP2D6-mediated 2-hydroxylation, while normal- and higher-activity groups test the activity-score-dependent k<sub>cat</sub> values.
 
 The concentration-time profiles and goodness-of-fit diagnostics characterize model performance within the evaluated intravenous and oral dose range, analytes, and CYP2D6 groups. Unrepresented populations and tissue-specific pharmacodynamic endpoints remain outside the evidence evaluated in this report.

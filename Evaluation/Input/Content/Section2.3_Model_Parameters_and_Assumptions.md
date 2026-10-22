@@ -10,9 +10,9 @@ No phenotype-specific absorption parameter was introduced. Differences between C
 
 ### Distribution
 
-Desipramine plasma protein binding was represented by a fraction unbound of 14% as summarized in [Section 2.2.1](#22). Lipophilicity was optimized and is an important parameter for the parent volume of distribution.
+Desipramine plasma protein binding was represented by a fraction unbound of 14% as summarized in [Section 2.2](#22). Lipophilicity was optimized and is an important parameter for the parent volume of distribution.
 
-Partition coefficients were calculated with the Rodgers and Rowland method. Cellular permeabilities were calculated with the PK-Sim Standard method. Because the model includes both parent and metabolite concentration-time profiles, distribution assumptions affect the interpretation of desipramine and 2-hydroxydesipramine profiles separately.
+Partition coefficients were calculated with the Rodgers and Rowland method ([Rodgers 2005](#5), [Rodgers 2006](#5)). Cellular permeabilities were calculated with the PK-Sim Standard method ([OSP Documentation 2018](#5)). Because the model includes both parent and metabolite concentration-time profiles, distribution assumptions affect the interpretation of desipramine and 2-hydroxydesipramine profiles separately.
 
 The model uses compound-specific distribution properties for desipramine and 2-hydroxydesipramine. Parent distribution is particularly important because desipramine is extensively distributed and the concentration-time profile after intravenous administration constrains this part of the model. Metabolite distribution is interpreted more cautiously because metabolite profiles are less comprehensive than parent profiles.
 

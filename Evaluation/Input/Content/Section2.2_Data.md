@@ -28,8 +28,8 @@ The table below summarizes the drug-dependent inputs documented for the desipram
 | P<sub>int</sub> | cm/min | 3.19E-05 | Calculated | Specific transcellular intestinal permeability. |
 | **Shared distribution and elimination parameters** |  |  |  |  |
 | GFR fraction | - | 1.00 | Assumed | Fraction used to scale passive glomerular filtration. |
-| Partition coefficients | - | Rodgers and Rowland | Calculated | Tissue-to-plasma partition coefficients calculated with the Rodgers and Rowland method. |
-| Cellular permeabilities | cm/min | 0.27 / 0.01 | Calculated | Cellular permeabilities for desipramine and 2-hydroxydesipramine calculated with the PK-Sim Standard method. |
+| Partition coefficients | - | Rodgers and Rowland | Calculated | Tissue-to-plasma partition coefficients calculated with the Rodgers and Rowland method ([Rodgers 2005](#5), [Rodgers 2006](#5)). |
+| Cellular permeabilities | cm/min | 0.27 / 0.01 | Calculated | Cellular permeabilities for desipramine and 2-hydroxydesipramine calculated with the PK-Sim Standard method ([OSP Documentation 2018](#5)). |
 
 **Table 1:**<a name="table-1"></a> Drug-dependent physicochemical, distribution, metabolism, elimination, and formulation parameters used in the final desipramine model.
 
@@ -38,11 +38,11 @@ The CYP2D6 characterization-specific catalytic rate constants used in the model 
 | CYP2D6 characterization | k<sub>cat</sub> [1/min] | Parameter origin |
 | --- | ---: | --- |
 | AS = 0 (PM) | 0.00 | Assumed |
-| NM baseline | 5.03 | Optimized |
+| EM (model default) | 5.03 | Optimized |
 | AS = 2 (NM) | 9.86 | Optimized |
 | AS = 2.5 (UM) | 28.88 | Optimized |
 
-**Table 1a:**<a name="table-1a"></a> CYP2D6 characterization-specific k<sub>cat</sub> values for desipramine 2-hydroxylation reported by [Rüdesheim 2025](#5). Parenthetical phenotypes for AS-coded rows use the current CPIC CYP2D6 activity score-to-phenotype mapping ([Moore 2026](#5)). AS: activity score; NM: normal metabolizer; PM: poor metabolizer; UM: ultrarapid metabolizer.
+**Table 1a:**<a name="table-1a"></a> CYP2D6 characterization-specific k<sub>cat</sub> values for desipramine 2-hydroxylation reported by [Rüdesheim 2025](#5). Parenthetical phenotypes for AS-coded rows use the current CPIC CYP2D6 activity score-to-phenotype mapping ([Moore 2026](#5)). AS: activity score; EM: extensive metabolizer; NM: normal metabolizer; PM: poor metabolizer; UM: ultrarapid metabolizer. EM profiles and profiles without reported CYP2D6 information use the EM k<sub>cat</sub>. [Rüdesheim 2025](#5) labels this group NM. Fast EM profiles ([Brøsen 1986](#5), [Brøsen 1988](#5)) use the AS = 2 k<sub>cat</sub>. [Rüdesheim 2025](#5) assumed this correspondence because these studies report no genotype or activity score and define fast extensive metabolizers by a particularly low sparteine metabolic ratio. Poor-metabolizer profiles use the AS = 0 value.
 
 ### Clinical data
 
@@ -55,20 +55,29 @@ The evaluation uses desipramine and 2-hydroxydesipramine plasma concentration-ti
 | [Bergmann 2001](#5) | 100 mg, oral, single dose | 36.7 (22-54) | NR | 33% female | 6 | NR | AS = 2.5 (UM) |
 | [Bergstrom 1992](#5) | 50 mg, oral, single dose | 44 (35-53) | 78.2 (60.3-92.8) | Male | 6 | NR | EM |
 | [Boni 2009](#5)<sup>+</sup> | 50 mg, oral, single dose | 33.6 ± 7.2 | 80.9 ± 11.2 | 4% female | 26 | NR | EM |
-| [Brøsen 1986](#5)<sup>+</sup> | 100 mg, oral, single dose | 24.1 (21-30) | NR | 50% female | 6 | NR | Fast EM |
+| [Brøsen 1986](#5)<sup>+</sup> | 100 mg, oral, single dose | 24.1 (21-30) | NR | 50% female | 6 | NR | fast EM |
 | [Brøsen 1986](#5)<sup>+</sup> | 100 mg, oral, single dose | 28.8 (23-34) | NR | 50% female | 6 | NR | PM |
 | [Brøsen 1986](#5)<sup>+</sup> | 100 mg, oral, single dose | 28.3 (21-36) | NR | 50% female | 6 | NR | EM |
-| [Brøsen 1988](#5)<sup>+</sup> | 50 mg, intravenous infusion over 60 min | 23.75 (22-27) | NR | 50% female | 4 | Solution | Fast EM |
+| [Brøsen 1988](#5)<sup>+</sup> | 50 mg, intravenous infusion over 60 min | 23.75 (22-27) | NR | 50% female | 4 | Solution | fast EM |
 | [Brøsen 1988](#5)<sup>+</sup> | 50 mg, intravenous infusion over 60 min | 29 (24-35) | NR | 33% female | 3 | Solution | PM |
 | [Brøsen 1988](#5)<sup>+</sup> | 50 mg, intravenous infusion over 60 min | 29.75 (22-37) | NR | 75% female | 4 | Solution | EM |
+| [Brøsen 1989](#5) | 100 mg, oral, single dose | 27.7 (23-38) | NR | 50% female | 6 | NR | EM |
+| [Brøsen 1993](#5) | 100 mg, oral, single dose | 22-24 | NR | Male | 4 | NR | fast EM |
+| [Brøsen 1993](#5) | 100 mg, oral, single dose | 22-24 | NR | Male | 8 | NR | PM |
+| [Brøsen 1993](#5) | 100 mg, oral, single dose | 22-24 | NR | Male | 5 | NR | EM |
 | [Harris 2007](#5)<sup>+</sup> | 50 mg, oral, single dose | 31.5 ± 10.8 | NR | 53% female | 17 | NR | EM |
 | [Hynes 2015](#5) | 50 mg, oral, single dose | 58.3 ± 9.9 | 84.3 ± 28.5 | 55% female | 20 | NR | EM |
 | [Madani 2002](#5)<sup>+</sup> | 50 mg, oral, single dose | 18-45 | NR | NR | 24 | NR | EM |
+| [Nichols 2009](#5) | 50 mg, oral, single dose | 35.0 ± 7.7 | 79.9 ± 9.8 | 15% female | 20 | NR | EM |
 | [Nichols 2013](#5) | 50 mg, oral, single dose | 18-45 | >60 | NR | 38 | NR | EM |
 | [Patroneva 2008](#5) | 50 mg, oral, single dose | 18-55 | >50 | NR | 20 | NR | EM |
+| [Reese 2008](#5) | 50 mg, oral, single dose | 19-35 | NR | Male | 15 | NR | EM |
+| [Sauer 2004](#5) | 50 mg, oral, single dose | 26-55 | NR | 50% female | 22 | NR | EM |
 | [Skinner 2003](#5) | 50 mg, oral, single dose | 42 (21-63) | 71.4 | 56% female | 16 | NR | EM |
 | [Spina 1987](#5)<sup>+</sup> | 25 mg, oral, single dose | 27-51 | NR | 21% female | 8 | NR | EM |
 | [Spina 1987](#5)<sup>+</sup> | 25 mg, oral, single dose | 27-51 | NR | 21% female | 6 | NR | PM |
 | [Spina 1995](#5) | 100 mg, oral, single dose | 24-38 | 67-81 | Male | 6 | NR | EM |
 
-**Table 2:**<a name="table-2"></a> Clinical desipramine concentration-time profiles used for model building and verification. \*: Single oral dose unless otherwise specified; AS: activity score; EM: extensive metabolizer; Fast EM: fast extensive metabolizer; IM: intermediate metabolizer; NM: normal metabolizer; NR: not reported; PM: poor metabolizer; PT: predicted phenotype; UM: ultrarapid metabolizer; <sup>+</sup>: data used for model building. Parenthetical PTs for AS-coded rows use the current CPIC CYP2D6 activity score-to-phenotype mapping ([Moore 2026](#5)). EM is the model default when study-specific CYP2D6 information is not available.
+**Table 2:**<a name="table-2"></a> Clinical desipramine concentration-time profiles used for model building and verification. \*: Single oral dose unless otherwise specified; AS: activity score; EM: extensive metabolizer; fast EM: fast extensive metabolizer; NM: normal metabolizer; NR: not reported; PM: poor metabolizer; PT: predicted phenotype; UM: ultrarapid metabolizer; <sup>+</sup>: data used for model building. Parenthetical PTs for AS-coded rows use the current CPIC CYP2D6 activity score-to-phenotype mapping ([Moore 2026](#5)). EM is the model default when study-specific CYP2D6 information is not available.
+
+[Hynes 2015](#5) studied cancer patients. The simulation uses a healthy adult individual. The age range of the [Reese 2008](#5) subjects is taken from the description of the same study in the Wellbutrin XL prescribing information ([Wellbutrin XL label](#5)).

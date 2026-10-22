@@ -169,7 +169,7 @@
           "Body surface area - Mosteller"
         ],
         "Species": "Human",
-        "Population": "European_ICRP_2002",
+        "Population": "WhiteAmerican_NHANES_1997",
         "Gender": "MALE",
         "Age": {
           "Value": 44.0,
@@ -199,7 +199,7 @@
           "Body surface area - Mosteller"
         ],
         "Species": "Human",
-        "Population": "European_ICRP_2002",
+        "Population": "WhiteAmerican_NHANES_1997",
         "Gender": "MALE",
         "Age": {
           "Value": 33.6,
@@ -229,7 +229,7 @@
           "Body surface area - Mosteller"
         ],
         "Species": "Human",
-        "Population": "European_ICRP_2002",
+        "Population": "WhiteAmerican_NHANES_1997",
         "Gender": "FEMALE",
         "Age": {
           "Value": 31.5,
@@ -315,7 +315,7 @@
           "Body surface area - Mosteller"
         ],
         "Species": "Human",
-        "Population": "European_ICRP_2002",
+        "Population": "WhiteAmerican_NHANES_1997",
         "Gender": "MALE",
         "Age": {
           "Value": 31.5,
@@ -341,7 +341,7 @@
           "Body surface area - Mosteller"
         ],
         "Species": "Human",
-        "Population": "European_ICRP_2002",
+        "Population": "WhiteAmerican_NHANES_1997",
         "Gender": "MALE",
         "Age": {
           "Value": 35.0,
@@ -367,7 +367,7 @@
           "Body surface area - Mosteller"
         ],
         "Species": "Human",
-        "Population": "European_ICRP_2002",
+        "Population": "WhiteAmerican_NHANES_1997",
         "Gender": "FEMALE",
         "Age": {
           "Value": 42.0,
@@ -625,6 +625,192 @@
       "ExpressionProfiles": [
         "CYP2D6|Human|Healthy"
       ]
+    },
+    {
+      "Name": "Brøsen (1989), n=6 (EM)",
+      "Seed": 85728900,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 27.7,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1993), n=4 (fast EM)",
+      "Seed": 85833629,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 23.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1993), n=8 (PM)",
+      "Seed": 85938358,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 23.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1993), n=5 (EM)",
+      "Seed": 86043087,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 23.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Nichols (2009), n=20 (EM)",
+      "Seed": 86147816,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 35.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 79.9,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Reese (2008), n=15 (EM)",
+      "Seed": 86252545,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 27.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Sauer (2004), n=22 (EM)",
+      "Seed": 86357274,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.5,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
     }
   ],
   "Compounds": [
@@ -732,7 +918,7 @@
           "ValueOrigin": {
             "Source": "Database",
             "Method": "Other",
-            "Description": "chemicalize.com"
+            "Description": "DrugBank (Wishart et al. 2006)"
           }
         },
         {
@@ -914,6 +1100,7 @@
           "InternalName": "MetabolizationLiverMicrosomes_MM",
           "DataSource": "AS=2.5 (2-Hydroxydesipramine)",
           "Molecule": "CYP2D6",
+          "Metabolite": "2-Hydroxydesipramine",
           "Parameters": [
             {
               "Name": "In vitro Vmax for liver microsomes",
@@ -963,7 +1150,7 @@
           "ValueOrigin": {
             "Source": "Database",
             "Method": "Other",
-            "Description": "chemicalize.com"
+            "Description": "PubChem (Kim et al. 2019)"
           }
         }
       ]
@@ -1141,7 +1328,7 @@
           "ValueOrigin": {
             "Source": "Database",
             "Method": "Other",
-            "Description": "chemicalize.com"
+            "Description": "PubChem (Kim et al. 2019)"
           }
         }
       ]
@@ -1440,7 +1627,7 @@
           ],
           "Curves": [
             {
-              "Name": "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -1449,7 +1636,7 @@
               }
             },
             {
-              "Name": "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM), desipramine|[h]",
               "Y": "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -1638,7 +1825,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "nM",
+              "Unit": "nmol/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -1651,7 +1838,7 @@
           ],
           "Curves": [
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)-Organism-PeripheralVenousBlood-2-Hydroxydesipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated 2-hydroxydesipramine",
               "X": "Time",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -1660,7 +1847,7 @@
               }
             },
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -1669,7 +1856,7 @@
               }
             },
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), 2-hydroxydesipramine-2-Hydroxydesipramine-[ng/mL]",
+              "Name": "Observed 2-hydroxydesipramine",
               "X": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), 2-hydroxydesipramine|[h]",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
               "CurveOptions": {
@@ -1680,7 +1867,7 @@
               }
             },
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), desipramine|[h]",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -1882,7 +2069,7 @@
           ],
           "Curves": [
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)-Organism-PeripheralVenousBlood-2-Hydroxydesipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated 2-hydroxydesipramine",
               "X": "Time",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -1891,7 +2078,7 @@
               }
             },
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -1900,7 +2087,7 @@
               }
             },
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), 2-hydroxydesipramine-2-Hydroxydesipramine-[ng/mL]",
+              "Name": "Observed 2-hydroxydesipramine",
               "X": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), 2-hydroxydesipramine|[h]",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
               "CurveOptions": {
@@ -1911,7 +2098,7 @@
               }
             },
             {
-              "Name": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), desipramine|[h]",
               "Y": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -2119,7 +2306,7 @@
           ],
           "Curves": [
             {
-              "Name": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)-Organism-PeripheralVenousBlood-2-Hydroxydesipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated 2-hydroxydesipramine",
               "X": "Time",
               "Y": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -2128,7 +2315,7 @@
               }
             },
             {
-              "Name": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -2137,7 +2324,7 @@
               }
             },
             {
-              "Name": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), 2-hydroxydesipramine-2-Hydroxydesipramine-[ng/mL]",
+              "Name": "Observed 2-hydroxydesipramine",
               "X": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), 2-hydroxydesipramine|[h]",
               "Y": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
               "CurveOptions": {
@@ -2148,7 +2335,7 @@
               }
             },
             {
-              "Name": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), desipramine|[h]",
               "Y": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -2257,7 +2444,7 @@
           "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), desipramine"
         }
       ],
-      "Individual": "Brøsen (1986), n=6 (EM)",
+      "Individual": "Brøsen (1986), n=6 (fast EM)",
       "Compounds": [
         {
           "Name": "2-Hydroxydesipramine",
@@ -2356,7 +2543,7 @@
           ],
           "Curves": [
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)-Organism-PeripheralVenousBlood-2-Hydroxydesipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated 2-hydroxydesipramine",
               "X": "Time",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -2365,7 +2552,7 @@
               }
             },
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -2374,7 +2561,7 @@
               }
             },
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), 2-hydroxydesipramine-2-Hydroxydesipramine-[ng/mL]",
+              "Name": "Observed 2-hydroxydesipramine",
               "X": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), 2-hydroxydesipramine|[h]",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
               "CurveOptions": {
@@ -2385,7 +2572,7 @@
               }
             },
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), desipramine|[h]",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -2582,7 +2769,7 @@
           ],
           "Curves": [
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -2591,7 +2778,7 @@
               }
             },
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM), desipramine|[h]",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -2799,7 +2986,7 @@
           ],
           "Curves": [
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)-Organism-PeripheralVenousBlood-2-Hydroxydesipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated 2-hydroxydesipramine",
               "X": "Time",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -2808,7 +2995,7 @@
               }
             },
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -2817,7 +3004,7 @@
               }
             },
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine-2-Hydroxydesipramine-[ng/mL]",
+              "Name": "Observed 2-hydroxydesipramine",
               "X": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine|[h]",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
               "CurveOptions": {
@@ -2828,7 +3015,7 @@
               }
             },
             {
-              "Name": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine|[h]",
               "Y": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -3029,7 +3216,7 @@
           ],
           "Curves": [
             {
-              "Name": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -3038,7 +3225,7 @@
               }
             },
             {
-              "Name": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM), desipramine|[h]",
               "Y": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -3246,7 +3433,7 @@
           ],
           "Curves": [
             {
-              "Name": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)-Organism-PeripheralVenousBlood-2-Hydroxydesipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated 2-hydroxydesipramine",
               "X": "Time",
               "Y": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -3255,7 +3442,7 @@
               }
             },
             {
-              "Name": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -3264,7 +3451,7 @@
               }
             },
             {
-              "Name": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine-2-Hydroxydesipramine-[ng/mL]",
+              "Name": "Observed 2-hydroxydesipramine",
               "X": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine|[h]",
               "Y": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
               "CurveOptions": {
@@ -3275,7 +3462,7 @@
               }
             },
             {
-              "Name": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine|[h]",
               "Y": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -3476,7 +3663,7 @@
           ],
           "Curves": [
             {
-              "Name": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -3485,7 +3672,7 @@
               }
             },
             {
-              "Name": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM), desipramine|[h]",
               "Y": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -3633,7 +3820,7 @@
           ],
           "Processes": [
             {
-              "Name": "CYP2D6-AS=2 (2-Hydroxydesipramine)",
+              "Name": "CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)",
               "MoleculeName": "CYP2D6",
               "MetaboliteName": "2-Hydroxydesipramine"
             },
@@ -3686,7 +3873,7 @@
           ],
           "Curves": [
             {
-              "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -3695,7 +3882,7 @@
               }
             },
             {
-              "Name": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine|[h]",
               "Y": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -3706,7 +3893,7 @@
               }
             }
           ],
-          "Name": "Bergstrom 1992: desipramine hydrochloride, po, 50 mg, n=6",
+          "Name": "Bergstrom 1992: desipramine hydrochloride, po, 50 mg, n=6 (EM)",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3895,7 +4082,7 @@
           ],
           "Curves": [
             {
-              "Name": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -3904,7 +4091,7 @@
               }
             },
             {
-              "Name": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM), desipramine|[h]",
               "Y": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -4094,7 +4281,7 @@
           ],
           "Curves": [
             {
-              "Name": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -4103,7 +4290,7 @@
               }
             },
             {
-              "Name": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM), desipramine|[h]",
               "Y": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -4303,7 +4490,7 @@
           ],
           "Curves": [
             {
-              "Name": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -4312,7 +4499,7 @@
               }
             },
             {
-              "Name": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM), desipramine|[h]",
               "Y": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -4513,7 +4700,7 @@
           ],
           "Curves": [
             {
-              "Name": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -4522,7 +4709,7 @@
               }
             },
             {
-              "Name": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM), desipramine|[h]",
               "Y": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -4730,7 +4917,7 @@
           ],
           "Curves": [
             {
-              "Name": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)-Organism-PeripheralVenousBlood-2-Hydroxydesipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated 2-hydroxydesipramine",
               "X": "Time",
               "Y": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -4739,7 +4926,7 @@
               }
             },
             {
-              "Name": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -4748,7 +4935,7 @@
               }
             },
             {
-              "Name": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine|[h]",
               "Y": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -4759,7 +4946,7 @@
               }
             },
             {
-              "Name": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine-2-Hydroxydesipramine-[ng/mL]",
+              "Name": "Observed 2-hydroxydesipramine",
               "X": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine|[h]",
               "Y": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
               "CurveOptions": {
@@ -4957,7 +5144,7 @@
           ],
           "Curves": [
             {
-              "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -4966,7 +5153,7 @@
               }
             },
             {
-              "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine-Desipramine-Peripheral Venous Blood-Plasma-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine|[h]",
               "Y": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -5173,7 +5360,7 @@
           ],
           "Curves": [
             {
-              "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -5182,7 +5369,7 @@
               }
             },
             {
-              "Name": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM), desipramine|[h]",
               "Y": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -5383,7 +5570,7 @@
           ],
           "Curves": [
             {
-              "Name": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -5392,7 +5579,7 @@
               }
             },
             {
-              "Name": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM), desipramine|[h]",
               "Y": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -5604,7 +5791,7 @@
           ],
           "Curves": [
             {
-              "Name": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM)-Organism-PeripheralVenousBlood-Desipramine-Plasma (Peripheral Venous Blood)",
+              "Name": "Simulated desipramine",
               "X": "Time",
               "Y": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -5613,7 +5800,7 @@
               }
             },
             {
-              "Name": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine-Desipramine-[ng/mL]",
+              "Name": "Observed desipramine",
               "X": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine|[h]",
               "Y": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
               "CurveOptions": {
@@ -5643,6 +5830,1587 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Desipramine-Model\nSpina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM)\n2024-01-19 10:53"
+        }
+      ]
+    },
+    {
+      "Name": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine",
+        "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 500.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine"
+        }
+      ],
+      "Individual": "Brøsen (1989), n=6 (EM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 100 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Simulated 2-hydroxydesipramine",
+              "X": "Time",
+              "Y": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Simulated desipramine",
+              "X": "Time",
+              "Y": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Observed 2-hydroxydesipramine",
+              "X": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine|Time",
+              "Y": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Square"
+              }
+            },
+            {
+              "Name": "Observed desipramine",
+              "X": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine|Time",
+              "Y": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Brøsen 1989: desipramine hydrochloride, po, 100 mg, n=6 (EM)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Desipramine-Model\nBrøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)\n2024-01-19 10:34"
+        }
+      ]
+    },
+    {
+      "Name": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), 2-hydroxydesipramine",
+        "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), desipramine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 500.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), desipramine"
+        }
+      ],
+      "Individual": "Brøsen (1993), n=4 (fast EM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-AS=2 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 100 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Simulated 2-hydroxydesipramine",
+              "X": "Time",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Simulated desipramine",
+              "X": "Time",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Observed 2-hydroxydesipramine",
+              "X": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), 2-hydroxydesipramine|[h]",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Square"
+              }
+            },
+            {
+              "Name": "Observed desipramine",
+              "X": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), desipramine|[h]",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Brøsen 1993: desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Desipramine-Model\nBrøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)\n2024-01-19 10:34"
+        }
+      ]
+    },
+    {
+      "Name": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM), desipramine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 500.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM), desipramine"
+        }
+      ],
+      "Individual": "Brøsen (1993), n=8 (PM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-AS=0 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 100 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Simulated desipramine",
+              "X": "Time",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Observed desipramine",
+              "X": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM), desipramine|[h]",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Brøsen 1993: desipramine hydrochloride, po, 100 mg, n=8 (PM)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Desipramine-Model\nBrøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)\n2024-01-19 10:34"
+        }
+      ]
+    },
+    {
+      "Name": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), 2-hydroxydesipramine",
+        "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), desipramine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 500.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), desipramine"
+        }
+      ],
+      "Individual": "Brøsen (1993), n=5 (EM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 100 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Simulated 2-hydroxydesipramine",
+              "X": "Time",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Simulated desipramine",
+              "X": "Time",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Observed 2-hydroxydesipramine",
+              "X": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), 2-hydroxydesipramine|[h]",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Square"
+              }
+            },
+            {
+              "Name": "Observed desipramine",
+              "X": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), desipramine|[h]",
+              "Y": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Brøsen 1993: desipramine hydrochloride, po, 100 mg, n=5 (EM)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Desipramine-Model\nBrøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)\n2024-01-19 10:34"
+        }
+      ]
+    },
+    {
+      "Name": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine",
+        "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 500.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine"
+        }
+      ],
+      "Individual": "Nichols (2009), n=20 (EM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 50 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Simulated 2-hydroxydesipramine",
+              "X": "Time",
+              "Y": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Simulated desipramine",
+              "X": "Time",
+              "Y": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Observed 2-hydroxydesipramine",
+              "X": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine|[h]",
+              "Y": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine|ObservedData|Peripheral Venous Blood|Plasma|2-Hydroxydesipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Square"
+              }
+            },
+            {
+              "Name": "Observed desipramine",
+              "X": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine|[h]",
+              "Y": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Nichols 2009: desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Desipramine-Model\nNichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)\n2024-01-19 10:34"
+        }
+      ]
+    },
+    {
+      "Name": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM), desipramine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 500.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM), desipramine"
+        }
+      ],
+      "Individual": "Reese (2008), n=15 (EM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 50 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Simulated desipramine",
+              "X": "Time",
+              "Y": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Observed desipramine",
+              "X": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM), desipramine|[h]",
+              "Y": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Reese 2008: desipramine hydrochloride, po, 50 mg, n=15 (EM)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Desipramine-Model\nReese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM)\n2024-01-19 10:34"
+        }
+      ]
+    },
+    {
+      "Name": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM), desipramine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 500.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM), desipramine"
+        }
+      ],
+      "Individual": "Sauer (2004), n=22 (EM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 50 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "dissolved",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Simulated desipramine",
+              "X": "Time",
+              "Y": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Observed desipramine",
+              "X": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM), desipramine|Time",
+              "Y": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM), desipramine|ObservedData|Peripheral Venous Blood|Plasma|Desipramine|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Sauer 2004: desipramine hydrochloride, po, 50 mg, n=22 (EM)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Desipramine-Model\nSauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM)\n2024-01-19 10:34"
         }
       ]
     }

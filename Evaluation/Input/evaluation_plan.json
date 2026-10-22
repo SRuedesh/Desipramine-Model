@@ -83,7 +83,7 @@
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)",
+        "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
         "SectionId": 331
       },
       {
@@ -93,12 +93,7 @@
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
-        "SectionId": 331
-      },
-      {
-        "Project": "Desipramine",
-        "Simulation": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)",
+        "Simulation": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)",
         "SectionId": 331
       },
       {
@@ -113,6 +108,11 @@
       },
       {
         "Project": "Desipramine",
+        "Simulation": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)",
+        "SectionId": 331
+      },
+      {
+        "Project": "Desipramine",
         "Simulation": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)",
         "SectionId": 331
       },
@@ -123,12 +123,12 @@
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
+        "Simulation": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)",
         "SectionId": 331
       },
       {
         "Project": "Desipramine",
-        "Simulation": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)",
+        "Simulation": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
         "SectionId": 331
       },
       {
@@ -148,7 +148,32 @@
       },
       {
         "Project": "Desipramine",
+        "Simulation": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
         "Simulation": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
         "SectionId": 332
       },
       {
@@ -163,6 +188,16 @@
       },
       {
         "Project": "Desipramine",
+        "Simulation": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
+        "Simulation": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Desipramine",
         "Simulation": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)",
         "SectionId": 332
       },
@@ -173,13 +208,12 @@
       }
     ],
     "GOFMergedPlots": [
-{
+      {
         "Title": "Desipramine goodness-of-fit diagnostics",
         "SectionId": 321,
         "Artifacts": [
           "Plot",
-          "GMFE",
-          "Measure"
+          "GMFE"
         ],
         "PlotTypes": [
           "predictedVsObserved",
@@ -329,6 +363,55 @@
                 "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine",
                 "Color": "#FF0000"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), desipramine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM)",
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=8 (PM), desipramine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), desipramine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Reese (2008) - desipramine hydrochloride, po, 50 mg, n=15 (EM), desipramine",
+                "Color": "#FF0000"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Sauer (2004) - desipramine hydrochloride, po, 50 mg, n=22 (EM), desipramine",
+                "Color": "#FF0000"
               }
             ]
           }
@@ -339,8 +422,7 @@
         "SectionId": 322,
         "Artifacts": [
           "Plot",
-          "GMFE",
-          "Measure"
+          "GMFE"
         ],
         "PlotTypes": [
           "predictedVsObserved",
@@ -398,6 +480,34 @@
                 "Simulation": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
                 "Output": "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Brøsen (1989) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM)",
+                "Output": "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=4 (fast EM), 2-hydroxydesipramine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Brøsen (1993) - desipramine hydrochloride, po, 100 mg, n=5 (EM), 2-hydroxydesipramine",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Desipramine",
+                "Simulation": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+                "Output": "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Nichols (2009) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine",
                 "Color": "#0000FF"
               }
             ]

@@ -4,4 +4,4 @@ The model uses common absorption and distribution parameters across CYP2D6 group
 
 The concentration-time profiles and goodness-of-fit diagnostics characterize model performance within the evaluated dose, route, analyte, and CYP2D6 ranges. No formal acceptance criterion was applied. This compound report evaluates only desipramine-only or control study arms.
 
-The main limitations are unresolved genotype differences within activity scores, empirical residual clearance, and limited metabolite data.
+The main limitations are unresolved genotype differences within activity scores, empirical residual clearance, and limited metabolite data. The AS = 2.5 k<sub>cat</sub> was optimized, and [Bergmann 2001](#5) is the only AS = 2.5 data set. The report therefore does not show that this verification profile is independent of the fit.
